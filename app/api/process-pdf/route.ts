@@ -2,11 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
 
-export const config = {
-  api: {
-    bodyParser: false, // Disable Next.js's default body parsing
-  },
-};
+
 
 // Main handler for POST request
 export async function POST(req: NextRequest) {
