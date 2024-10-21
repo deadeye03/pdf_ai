@@ -1,4 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PDF Summarizer with Next.js and Gemini AI
+
+This is a Next.js-based web application that allows users to upload a PDF and receive a summarized version of the content using the Gemini AI API.
+
+## Features
+
+- **PDF Upload**: Users can upload a PDF file through the interface.
+- **AI Summarization**: Once a PDF is uploaded, the application uses the Gemini AI API to extract and summarize the text.
+- **Client-side Rendering**: The application processes the PDF on the client side using `pdfjs-dist`.
+- **Next.js**: Built using Next.js, a modern React-based framework.
+
+## Technologies Used
+
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **Gemini AI API**: Used for summarizing the PDF content.
+- **pdfjs-dist**: For extracting text content from the PDF on the client side.
+- **JavaScript**: Core language for the application logic.
+- **HTML5 & CSS3**: For structuring and styling the UI.
+
+## Installation
+
+To get started with this project locally, follow these steps:
+
+### Prerequisites
+
+- Node.js version 16 or later
+- npm or yarn package manager
+
+### Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/pdf-summarizer.git
+   cd pdf-summarizer
+
+Set up Environment Variables
+
+You need to set up your environment variables for the Gemini AI API. Create a .env.local file in the root directory and add the following:
+
+bash
+Copy code
+NEXT_PUBLIC_GEMINI_API_KEY=your-gemini-api-key-here
 
 ## Getting Started
 
